@@ -136,6 +136,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.bold-text{
+    color:var(--title-color);
+}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
@@ -349,6 +352,35 @@ img {
     font-size: 1.25rem;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+     
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; 
+    background-color: var(--first-color);
+    color: #FFF;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    font-size: var(--small-font-size);
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 /*==================== BUTTONS ====================*/
 .button{
@@ -649,6 +681,7 @@ img {
 
 .services__modal-services{
     row-gap:1rem;
+    text-align:justify;
 
 }
 .services__modal-service{
@@ -673,7 +706,7 @@ img {
 
 .services__modal-icon{
     color:var(--first-color);
-    margin-right:var(--mb-0-25);
+    margin-right:var(--mb-0-75);
 }
 
 
@@ -845,14 +878,15 @@ img {
 
 /*==================== FOOTER ====================*/
 .footer{
-    padding-top:2rem;
+    padding-top:1rem;
 }
 .footer__container{
     row-gap:3.5 rem;
+    text-align: center;
 }
 .footer__bg{
     background-color: var(--first-color-second);
-    padding:2rem 0 3rem;
+    padding:1rem 0 1rem;
 }
 .footer__title{
     font-size:var(--h1-font-size);
@@ -861,18 +895,14 @@ img {
 .footer__subtitle{
     font-size:var(--small-font-size);
 }
-.footer__links{
-    display:flex;
-    flex-direction: column;
-    row-gap:1.5reml
-}
+
 .footer__link:hover{
     color:var(--first-color-lighter);
 }
 
 .footer__social{
     font-size:1.25rem;
-    margin-right:var(--mb-1-5);
+    /* margin-right:var(--mb-1-5); */
 }
 
 .footer__social:hover{
@@ -989,8 +1019,8 @@ img {
     }
 
     .about__container,
-    .portfolio__content,
-    .footer__container
+    .portfolio__content
+    
     {
         grid-template-columns: repeat(2,1fr);
     }
@@ -1117,18 +1147,13 @@ img {
     }
 
     .footer__container{
-        grid-template-columns: repeat(3,1fr);
+        text-align: center;
     }
-    .footer__bg{
+    /* .footer__bg{
         padding:3rem 0 3.5rem;
-    }
-    .footer_links{
-        flex-direction: row;
-        column-gap:2rem;
-    }
-    .footer__socials{
-        justify-self:flex-end;
-    }
+    } */
+    
+  
     .footer__copy{
         margin-top: 4.5rem;
     }
