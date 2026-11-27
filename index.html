@@ -1,1637 +1,315 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Bhargavi Poyekar</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="" class="nav__logo">Bhargavi Poyekar</a>
-                
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>About
-                            </a>
-                        </li>
-                        
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#certification" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i>Certifications
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i>Projects
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i>Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
-                <div class="nav__btns">
-                    <!-- Theme Change Button  -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/bhargavi-poyekar-b342831a3/" target="_blank" class="home__social-icon tooltip">
-                                <span class="tooltiptext">Linkedin</span> <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://github.com/bhargavi1poyekar" target="_blank" class="home__social-icon tooltip">
-                                <span class="tooltiptext">Github</span>  <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://leetcode.com/u/bhargavi1poyekar/"  target="_blank" class="home__social-icon tooltip">
-                                <span class="tooltiptext">Leetcode</span> <i class="fa fa-code"></i>
-                            </a>
-                            <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=0c8p-pwAAAAJ"  target="_blank" class="home__social-icon tooltip">
-                                <span class="tooltiptext">Google Scholar</span> <i class="fa fa-mortar-board"></i>
-                            </a>
-                        </div>
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x='-100' y='-30' xlink:href="assets/img/about.jpg"/>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title" id="element"></h1>
-                            <h3 class="home__subtitle">MS Computer Science Graduate from <br>University of Maryland Baltimore County</h3>
-                            <p class="home__description">
-                                Software Engineer & Cloud Enthusiast | Turning Code into Scalable Systems
-                            </p>
-                            <a href="#contact" class="button button--flex">
-                              Contact Me  <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My introduction</span>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/Profile.jpg" alt="" class="about__img">
-                    <div class="about__data">
-                        <p class="about__description">
-                            I’m passionate about building the backbone of modern applications, scalable infrastructure, seamless platforms, and automated cloud solutions.
-
-                            When I’m not automating deployments or optimizing cloud workflows, you’ll find me exploring the latest in IaC or geeking out over AWS and Kubernetes.
-                            
-                            <br><br>Core Skills: Python, AWS, Terraform, Ansible, Django, PHP, Laravel, Git, Linux, MySQL.
-                            <!-- <br><br>#CloudDevOps #InfrastructureAsCode #PlatformEngineering -->
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">3.85/4</span>
-                                <span class="about__info-name">Cumulative<br>GPA</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">3</span>
-                                <span class="about__info-name">Cloud<br>Certifications</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">Top 16.33%</span>
-                                <span class="about__info-name">Leetcode <br>Rank</span>
-                            </div>
-                        </div>
-                        <div class="about__buttons">
-                            <a  href="https://bhargavi1poyekar.github.io/BhargaviPoyekar_Resume.pdf" class="button button--flex" target="_blank">
-                                View Resume<i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My Journey</span>
-
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target="#education">
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
-                        </div>
-                        <div class="qualification__button button--flex" data-target="#work">
-                            <i class="uil uil-briefcase-alt qualification__icon"></i>
-                            Work 
-                        </div>
-                    </div>
-
-                    <div class="qualification__sections">
-
-                        <div class="qualifications__content qualification__active" data-content id="education">
-
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">MS in Computer Science</h3>
-                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        2022-2024
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">BTech in Computer Engineering</h3>
-                                    <span class="qualification__subtitle">Sardar Patel Institute of Technology,<br>University of Mumbai</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        2018-2022
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">High School</h3>
-                                    <span class="qualification__subtitle">M.H. High School, India</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        2016-2018
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-                                
-                                <div>
-                                    <h3 class="qualification__title"></h3>
-                                    <span class="qualification__subtitle"></span>
-                                    <!-- <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                       
-                                    </div> -->
-                                </div>
-                                
-                            </div>
-
-                        </div>
-
-                        <div class="qualifications__content" data-content id="work" >
-                            
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Software Engineer</h3>
-                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        Aug 2024 - Present
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Software Developer Intern</h3>
-                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        Jun 2023 - May 2024
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="qualification__data">
-                                
-
-                                <div>
-                                    <h3 class="qualification__title">Software Developer Intern</h3>
-                                    <span class="qualification__subtitle">Origin Cloud Tech, India</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        June 2020- Dec 2020
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                                
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Website Developer Intern</h3>
-                                    <span class="qualification__subtitle">Ask in City, India</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        Jan 2020 - May 2020
-                                    </div>
-                                </div>
-                               
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-                                
-                                <!-- <div>
-                                    <h3 class="qualification__title">Computer Engineer</h3>
-                                    <span class="qualification__subtitle">UMBC</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt button__icon"></i>
-                                        2022-2024
-                                    </div>
-                                </div> -->
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ==================== Work Exp ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Work Exp</h2>
-                <span class="section__subtitle"></span>
-
-                <div class="services__container container grid">
-
-                    <div class="services__content">
-                        <div>
-                            <i class="fa fa-windows work__icon"></i> <i class="fa fa-linux work__icon"></i> <i class="fa fa-github work__icon"></i> <i class="fa fa-database work__icon"></i> 
-                            <h3 class="services__title">Software Engineer</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Software Engineer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Built scalable backend infrastructure to provision virtual lab environments for 50+ students using <b class="bold-text">Terraform, Ansible,
- and vCenter APIs </b>, enabling secure multi-VM setups with internal, external, and DMZ network segmentation.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Programmed modular <b class="bold-text">Infrastructure-as-Code</b> components and automated deployment scripts, accelerating environment
- setup by 90% and improving cross-course reusability.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Streamlined VM provisioning via backend logic integrated with web-based dashboards, enhancing instructor control and
- reducing manual intervention.</p>
-                                    </li>
-                                    <!-- <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Attended daily <b class="bold-text">scrum</b> meetings.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Worked collaboratively with <b class="bold-text">team</b> members.</p>
-                                    </li> -->
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="services__content">
-                        <div>
-                            <i class="fa fa-cloud work__icon"></i> <i class="fa fa-lock work__icon"></i> <i class="fa fa-github work__icon"></i> <i class="fa fa-code work__icon"></i> 
-                            <h3 class="services__title">Software Developer Intern</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Software Developer Intern</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Automated deployment, configuration, and management of 50 Linux Virtual Machines using <b class="bold-text">Ansible and Python</b> scripts.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Integrated <b class="bold-text">SSH hardening, key-based authentication, and jump hosts</b> for secure remote access.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed a <b class="bold-text">Django-based</b> VM management platform with role-based access control <b class="bold-text">(RBAC)</b></p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">SSL/TLS encryption and secure session management</b> to prevent unauthorized access.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Used <b class="bold-text">Ansible Vault</b> for secure credential storage and encryption of sensitive data.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <!-- <i class=" services__icon"></i> -->
-                            <i class="fa fa-html5 work__icon"></i> <i class="uil uil-visual-studio work__icon"></i> <i class="fa fa-css3 work__icon"></i> <i class="fa fa-paypal work__icon"></i> 
-                            <h3 class="services__title">Software Developer Intern<br></h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Software Developer Intern<br></h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed a scalable LMS Website using <b class="bold-text">Laravel Model-View-Controller</b> Framework.</p>
-                                    </li>
-                                    
-                                  
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Enhanced system security with <b class="bold-text">OAuth2 and multi-factor authentication</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Integrated <b class="bold-text">REST APIs</b>, including payment gateways (PayPal, Razorpay), location, and Zoom</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Designed a user-friendly interface using <b class="bold-text">HTML5, CSS3, Bootstrap, and JavaScript</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Built a normalized database with <b class="bold-text">multi-table joins</b> and optimized SQL CRUD queries.</p>
-                                    </li>
-                                    <!-- <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Performed <b class="bold-text">CRUD</b> queries with the use of join operations.</p>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                   
-
-                </div>
-            </section> 
-
-            <section class="testimonial section" id="certification">
-                <h2 class="section__title">Certifications</h2>
-                <span class="section__subtitle"></span>
-
-                <div class="testimonial__container container swiper">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/img/aws-certified-developer-associate.png" alt="AWS Certified Developer" class="testimonial__image">
-                                    <div>
-                                        <h3 class="testimonial__name">AWS Certified Developer - Associate</h3>
-                                        <span class="testimonial__client"> September 29, 2024 -  September 29, 2027</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="testimonial__description">
-                                Proficient in designing and deploying scalable cloud applications using AWS services such as Lambda, EC2, and DynamoDB. Knowledgeable in CI/CD pipelines and cloud-native development for efficient, secure, and cost-effective solutions.
-                            </p>
-                            <div class="about__buttons">
-                                <a href="https://www.credly.com/badges/725f00f5-e6e2-43ef-a7db-fe346c2c92e1" target="_blank" class="button paper__button">
-                                    View Badge<i class="uil uil-location-arrow button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/img/hashicorp-certified-terraform-associate-003.png" alt="Terraform Developer Associate" class="testimonial__image">
-                                    <div>
-                                        <h3 class="testimonial__name">Hashicorp Certified Terraform Associate</h3>
-                                        <span class="testimonial__client">February 27, 2025 - February 27, 2027</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="testimonial__description">
-                                Understanding of infrastructure as code (IaC) concepts to provision and manage cloud resources efficiently. Skilled in using Terraform modules, state management, and integrating with version control systems for scalable and automated deployments.
-                            </p>
-                            <div class="about__buttons">
-                                <a href="https://www.credly.com/badges/524276fc-cbfc-4f31-ab5f-32619aee6eb2/public_url" target="_blank" class="button paper__button">
-                                    View Badge<i class="uil uil-location-arrow button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/img/AWS_logo.png" alt="AWS Certified Cloud Practitioner" class="testimonial__image">
-                                    <div>
-                                        <h3 class="testimonial__name">AWS Certified Cloud Practitioner</h3>
-                                        <span class="testimonial__client"> April 6, 2024 -  April 6, 2027</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="testimonial__description">
-                                Understanding of core AWS services, including compute, storage, and networking. Knowledgeable in cloud concepts, security fundamentals, and billing practices. Skilled in supporting basic cloud architecture and operations, ensuring efficient and secure utilization of AWS resources.
-                            </p>
-                            <div class="about__buttons">
-                                <a href="https://www.credly.com/badges/0983b360-2349-4ae2-9bb9-12c19f8f09d1/public_url" target="_blank" class="button paper__button">
-                                    View Badge<i class="uil uil-location-arrow button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-                    <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div> -->
-                </div>
-            </section>
-
-
-            <!-- Academic Projects  -->
-            <section class="services section" id="projects">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle"></span>
-
-                <div class="services__container container grid">
-                    
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Hadoop_to_AWS" target="_blank" class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">HDFS to S3</h3>
-                            <span class="project__subtitle">AWS Cloud</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">HDFS to S3 Data Transfer Application</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed a <b class="bold-text">Python</b> application to automate file transfers from <b class="bold-text">Hadoop HDFS to AWS S3</b>.
-                                        </p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">IAM policies</b> to ensure secure access control for AWS resources.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Added <b class="bold-text">data integrity verification</b> to ensure accurate and complete file transfers.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Enabled encryption for files both in transit and at rest using <b class="bold-text">AWS KMS (Key Management Service)</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Enhanced security by using <b class="bold-text">AWS Secrets Manager</b> to store and rotate sensitive credentials (e.g., AWS access keys).</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Integrated <b class="bold-text">Amazon CloudWatch</b> to monitor file transfers and track errors.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Configured <b class="bold-text">Amazon SNS (Simple Notification Service)</b> to send email notifications for transfer status updates (success/failure).</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Fetch_receipt_challenge" target="_blank" class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Flask API for Receipt Processing</h3>
-                            <span class="project__subtitle">API Creation and Testing.</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Flask API for Receipt Processing</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed a <b class="bold-text">Flask</b>-based API for calculating reward points, ensuring scalability and modularity.</b>.
-                                        </p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">unit testing using Pytest</b> to validate individual components and ensure code reliability.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Used <b class="bold-text">Docker</b> to containerize the application, ensuring consistency across development and testing.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">API testing using Postman</b>, creating automated test cases for different API endpoints.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Token_Manager" target="_blank" class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Token Manager</h3>
-                            <span class="project__subtitle">Operating Systems</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Token Manager</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented a client-server application in <b class="bold-text">Go</b> for the management of tokens.
-                                        </p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Clients issue <b class="bold-text">RPC</b> calls to the server to execute create, drop, read-write methods on tokens. The server executes such RPCs and returns an appropriate response to each call.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Solution is developed in Go and utilizes the <b class="bold-text">gRPC and Google Protocol Buffer</b> frameworks.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">replication</b> and extended each token as a <b class="bold-text">(1,N) register with atomic semantics</b>, allowing multiple reader nodes and a single writer node.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed and deployed a resilient <b class="bold-text">read-impose-write-all (quorum) protocol</b>, ensuring the accurate maintenance of crucial state information for each token in the system.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Ensured <b class="bold-text">fail-silent behavior </b>for server nodes by allowing them to "crash-stop" operations on a specific token, while still responding to requests on other tokens.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Computer-Security/tree/main/MITM_HTTP-S_Project" target="_blank" class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Man-in-the-middle Attack</h3>
-                            <span class="project__subtitle">Computer Security</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Man-in-the-middle Attack<br></h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Executed a successful Man in the Middle (MITM) attack using <b class="bold-text">arpspoof </b>to intercept network communication and
-                                            gain access to sensitive information.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Utilized <b class="bold-text">tcpdump</b> to capture and analyze network traffic during the MITM attack,
-                                             verifying the success of the attack.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented a <b class="bold-text">self-signed certificate for TLS-based communication</b> to enhance the security of
-                                            web traffic during the MITM attack.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Decoded <b class="bold-text">base64 values of HTTP authentication</b> during the MITM attack to gain access to sensitive
-                                            information and improve the security of the targeted system</p>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Computer-Security/tree/main/DOS_ATTACK_PREVENTION" target="_blank"class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">DOS Attack and Firewalls</h3>
-                            <span class="project__subtitle">Computer Security</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">DOS Attack and Firewalls</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Demonstrated strong proficiency in cyber attack techniques by launching DOS attacks such as <b class="bold-text">ICMP flood and
-                                            smurf, UDP flood, TCP SYN, and HTTP Slowloris</b>, and gaining an understanding of how these attacks can be used to
-                                            compromise a targeted system</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Utilized <b class="bold-text">shell scripting and access permissions</b> in Linux to automate the process of launching DOS attacks.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Implemented <b class="bold-text">ufw rules</b> to prevent DOS attacks and secure the targeted system, leveraging expertise in network
-                                            protocols and security standards to identify and mitigate potential threats.
-                                            </p>
-                                    </li>
-                                    
-                                    
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Multithreaded-Average" target="_blank" class="a-link">
-                                Github Link 
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Multithreaded Average</h3>
-                            <span class="project__subtitle">Operating Systems</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Multithreaded Average<br></h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>The program spawns M workers threads and one coordinator thread.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Workers communicate with the coordinator using <b class="bold-text">GoLang channels and routines</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>The coordinator partitions the data file into M equal-sized contiguous fragments and assigns each fragment to a worker via a JSON message.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Each worker computes a partial sum and count of integers within its assigned fragment and identifies any prefix or suffix that may have been split between its neighboring fragments.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>The coordinator accumulates all workers' partial sums and counts, as well as the sums and counts of the couple of integers in the concatenation of kth suffix and (k+1)th prefix.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Upon receiving responses from all the workers, the coordinator calculates the average of the numbers in the datafile.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Computer-Security/tree/main/Project1_Part2" target="_blank" class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">RC4 Encryption Communication</h3>
-                            <span class="project__subtitle">Computer Security</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">RC4 Encryption Communication</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented <b class="bold-text">Diffie Hellman</b> Key Exchange</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Used <b class="bold-text">Socket programming</b> for communication of Keys.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>The Keys are encrypted using <b class="bold-text">RC4 Stream Encryption</b> before communication.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/CompPsych" target="_blank"class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Eye Pupil Response</h3>
-                            <span class="project__subtitle">Comp Psycho Physiology</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Eye Pupil Response</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Developed a machine learning model using <b class="bold-text">Python and Scikit-learn</b> that predicts the difficulty of math problems and the time taken to respond.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>The model analyzes data from pupil response to achieve an accuracy of <b class="bold-text">70%</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Utilized <b class="bold-text">Pandas and Numpy</b> for data manipulation and <b class="bold-text">Matplotlib</b> for data visualization.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>This cutting-edge technology has significant implications for education and cognitive research.</p>
-                                    </li>
-                                    
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__content">
-                        <div>
-                            <a href="https://github.com/bhargavi1poyekar/Distributed-Systems" target="_blank"class="a-link">
-                                Github Link
-                                <i class="uil uil-github button__icon"></i>
-                            </a>
-                            <h3 class="services__title">Car Booking System</h3>
-                            <span class="project__subtitle">Distributed Systems</span>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            View More 
-                            <i class="uil uil-arrow-right button__icon"></i> 
-                        </span>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Car Booking System</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Client Server based program using <b class="bold-text">RMI</b>. </p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Implemented Clock Synchronization using <b class="bold-text">Berkeley's Algorithm</b>.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Used <b class="bold-text">Ring Election</b> Algorithm for Electing the coordinator.</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p><b class="bold-text">Data Centric Model Replicated Write Protocol</b> is used for Data consistency.
-                                            
-                                            </p>
-                                    </li>
-                                    
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section> 
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="web_apps">
-                <h2 class="section__title">Web/Application Projects</h2>
-                <span class="section__subtitle"></span>
-
-                <div class="portfolio__container container swiper">
-                    <div class="swiper-wrapper">
-                        <!-- Portfolio 1 -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/EmoMusic.png" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                
-                                <h3 class="portfolio__title">EmoMusic</h3>
-                                <p class="portfolio__description">
-                                    Our team developed an emotion detection and music recommendation application using <b class="bold-text">Python and Convolutional Neural Networks</b> (CNN) for facial expression analysis. The app generates a personalized playlist based on the user's emotional state and includes an advanced music player to play the recommended songs. The application is built with <b class="bold-text">Django, HTML, JavaScript, and SQLite</b>.
-                                </p>
-                                <div class="about__buttons">
-                                    <a href="https://github.com/bhargavi1poyekar/Emo-music" target="_blank" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio 2 -->
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/domestic.png" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                               
-                                <h3 class="portfolio__title">Domestic Violence App</h3>
-                                <p class="portfolio__description">
-                                    Developed a multifaceted application using <b class="bold-text">Flutter and Firebase</b> to aid victims of domestic violence. Empowered users with an anonymous platform to discuss their experiences, collect evidence for legal cases, and connect with expert counselors and NGOs.
-                                </p>
-                                <div class="about__buttons">
-                                    <a href="https://github.com/pritamrao746/domestic-violence" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                               
-                            </div>
-                        </div>
-
-                        <!-- Portfolio 3 -->
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/Blog-posts.png" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                
-                                <h3 class="portfolio__title">Blog Master</h3>
-                                <p class="portfolio__description">
-                                    Built a robust blog website with <b class="bold-text">Laravel and SQLite</b>, incorporating JavaScript for dynamic user interactions. Features include a complete CRUD system for posts, category-based filtering, and a user authentication system with secure profiles. The website provides a a powerful search function, enabling users to find relevant posts easily.
-                                </p>
-                                <div class="about__buttons">
-                                    <a href="https://github.com/bhargavi1poyekar/Blog-master" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/tours_travels.png" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                
-                                <h3 class="portfolio__title">Tours and Travels</h3>
-                                <p class="portfolio__description">
-                                    Developed a dynamic tours and travels website with a user-friendly interface that allows users to browse, search, and book their desired tour package according to their destination preferences. The website is implemented using <b class="bold-text">Django, SQLite, HTML, CSS, and Bootstrap</b> to provide an efficient and seamless experience to users. It includes features like transport selection, detailed package information, itinerary, and accommodation details. 
-                                </p>
-                                <div class="about__buttons">
-                                    <a href="https://github.com/pritamrao746/tours_travels" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/donewithit.PNG" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                
-                                <h3 class="portfolio__title">Done With It</h3>
-                                <p class="portfolio__description">
-                                    Developed a TodoList app that allows you to create and manage multiple lists with different colors, add or delete tasks, and view the status of your tasks (completed and pending). This app is built using <b class="bold-text">React Native and Firebase</b>, providing an intuitive solution for managing your daily tasks.                                </p>
-                                <div class="about__buttons">
-                                    <a href="https://github.com/bhargavi1poyekar/DoneWithIt" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/tic-tac-toe.png" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                
-                                <h3 class="portfolio__title">Tic-Tac-Toe</h3>
-                                <p class="portfolio__description">
-                                    Developed a classic game of Tic Tac Toe using <b class="bold-text">HTML, CSS, and JavaScript</b>, demonstrating my proficiency in front-end web development. The game includes intuitive controls and a clean, user-friendly interface, providing an enjoyable experience for players of all ages. Implemented the game logic using JavaScript and created the visual design with CSS, ensuring optimal performance and functionality.                                <div class="about__buttons">
-                                    <a href="https://bhargavi1poyekar.github.io/TicTacToe/" class="button button--flex button--small portfolio__button">
-                                        Github
-                                        <i class="uil uil-github button__icon"></i>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-                   
-                </div>
-            </section>
-
-            
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My Technical Skills</span>
-                <div class="skills__container container grid">
-                    <div>
-                        <!-- Skills 1 -->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">Languages</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">PHP</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage "></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">C</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Java</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">SQL</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Go</h3>
-                                        <span class="skills__number">40%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:40%;" class="skills__percentage "></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- Skills 2 -->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-server-network skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">Frameworks</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Django</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Laravel</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Djange-Rest</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">ExpressJs</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">AngularJs</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Flutter</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Android Studio</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <!-- Skills 3 -->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-database skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">Database</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">MySQL</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">SQLite</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage "></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">MongoDB</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Firebase</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-palette skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">FrontEnd</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">CSS</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">BootStrap</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Responsive Design</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">jQuery</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:60%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-robot skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">Machine Learning</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Scikit</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:80%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Matplotlib</h3>
-                                        <span  class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:85%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Numpy</h3>
-                                        <span  class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:80%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Pandas</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:80%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Jupyter</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:90%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">TensorFlow</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-code-branch skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__tilte">Others</h1>
-                                    <span class="skills__subtitle"></span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Git</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Linux</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Ansible</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Tableau</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">API</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:80%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">JWT</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">TensorFlow</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span style="width:70%;" class="skills__percentage"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in Touch</span>
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Call Me</h3>
-                                <span class="contact__subtitle">(667)-464-0096</span>
-                            </div>
-                        </div>
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">bhargavi1poyekar@gmail.com</span>
-                            </div>
-                        </div>
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Mumbai, MH</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            div.class
-                        </div>
-                    </form> -->
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Bhargavi</h1>
-                        <span class="footer__subtitle">Software Developer</span>
-                    </div>
-                    
-                    <div class="footer__socials">
-                        <a href="https://www.facebook.com/bhargavi.poyekar/" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/bhargavi_poyekar/" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="https://www.goodreads.com/user/show/123064791?ref=nav_profile_l" target="_blank" class="footer__social">
-                            <i class="uil uil-books"></i>
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
-
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-
-
-        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-
-        <script>
-            var typed = new Typed('#element', {
-              strings: ['Hello, I am Bhargavi !!'],
-              typeSpeed: 50,
-              showCursor: false,
-            });
-          </script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhargavi Poyekar | Cloud, Backend & AI Engineering</title>
+  <meta name="description" content="Bhargavi Poyekar, Associate Software Engineer. I build cloud infrastructure, backend services and AI applications end to end, from idea to production.">
+  <meta property="og:title" content="Bhargavi Poyekar | Cloud, Backend & AI Engineering">
+  <meta property="og:description" content="Cloud infrastructure, backend services and AI applications, built end to end.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bhargavi1poyekar.github.io/">
+  <meta property="og:image" content="https://bhargavi1poyekar.github.io/assets/img/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234a6ee0'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EBP%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    // Set the theme before first paint to avoid a flash of the wrong theme
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="nav__logo">Bhargavi Poyekar</a>
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#writing" class="nav__link">Writing</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero container" id="top">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Cloud · Backend · AI Engineering</p>
+        <h1 class="hero__title">Hi, I'm Bhargavi Poyekar.</h1>
+        <p class="hero__lead">
+          I take systems from idea to production: cloud infrastructure, backend services and AI applications,
+          built to be reliable and easy to use. Currently an Associate Software Engineer at K2Q Capital.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="button">View projects</a>
+          <a href="BhargaviPoyekar_Resume.pdf" class="button button--ghost" target="_blank" rel="noopener">Resume</a>
+        </div>
+        <ul class="social" aria-label="Profiles">
+          <li><a href="https://www.linkedin.com/in/bhargavi-poyekar-b342831a3/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="filled"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg></a></li>
+          <li><a href="https://github.com/bhargavi1poyekar" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="filled"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg></a></li>
+          <li><a href="https://medium.com/@bpoyeka1" target="_blank" rel="noopener" aria-label="Medium">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="filled"><ellipse cx="6.8" cy="12" rx="6.8" ry="7"/><ellipse cx="17.6" cy="12" rx="3.4" ry="6.6"/><ellipse cx="22.4" cy="12" rx="1.2" ry="5.9"/></svg></a></li>
+          <li><a href="mailto:bhargavi1poyekar@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></li>
+        </ul>
+      </div>
+      <img src="assets/img/profile.jpg" alt="Bhargavi Poyekar" class="hero__photo" width="480" height="480">
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <h2 class="section__title" id="about-title">About</h2>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            I'm a software engineer who works across the stack. I design cloud infrastructure on AWS with Terraform,
+            build backend services in Python, and lately build AI applications: retrieval-augmented generation,
+            local and hosted LLMs, and the evaluation that shows whether they actually work.
+          </p>
+          <p>
+            I like problems that need the whole picture: understanding what users need, building it end to end,
+            and measuring the result instead of assuming it. I write about what I build on
+            <a href="https://medium.com/@bpoyeka1" target="_blank" rel="noopener">Medium</a>, explaining technical work in plain language.
+          </p>
+        </div>
+        <dl class="facts">
+          <div><dt>MS Computer Science</dt><dd>UMBC · GPA 3.85/4</dd></div>
+          <div><dt>3 certifications</dt><dd>AWS (2) · Terraform</dd></div>
+          <div><dt>Focus</dt><dd>Cloud · Backend · AI</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section container" id="experience" aria-labelledby="experience-title">
+      <h2 class="section__title" id="experience-title">Experience</h2>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__head">
+            <h3>Associate Software Engineer · <span>K2Q Capital</span></h3>
+            <p class="timeline__date">START – Present</p>
+          </div>
+          <ul>
+            <li>Build and maintain Python data pipelines that automate daily financial data workflows.</li>
+            <li>Develop internal analytics tools, including a Dash web platform, with a focus on performance and reliability.</li>
+          </ul>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__head">
+            <h3>Software Engineer · <span>University of Maryland, Baltimore County</span></h3>
+            <p class="timeline__date">Aug 2024 – END</p>
+          </div>
+          <ul>
+            <li>Built backend infrastructure to provision virtual lab environments for 50+ students with <strong>Terraform, Ansible and vCenter APIs</strong>, including segmented internal, external and DMZ networks.</li>
+            <li>Wrote modular Infrastructure-as-Code and deployment automation, speeding up environment setup by 90% and making it reusable across courses.</li>
+            <li>Connected VM provisioning to a web dashboard, giving instructors self-service control and saving 30+ hours per semester.</li>
+          </ul>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__head">
+            <h3>Software Developer Intern · <span>University of Maryland, Baltimore County</span></h3>
+            <p class="timeline__date">Jun 2023 – May 2024</p>
+          </div>
+          <ul>
+            <li>Automated deployment and configuration of 50 Linux VMs with <strong>Ansible and Python</strong>.</li>
+            <li>Built a <strong>Django</strong> VM management platform with role-based access control, TLS and secure sessions.</li>
+            <li>Hardened access with SSH keys and jump hosts; stored credentials with Ansible Vault.</li>
+          </ul>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__head">
+            <h3>Software Developer Intern · <span>Origin Cloud Tech, India</span></h3>
+            <p class="timeline__date">Jun 2020 – Dec 2020</p>
+          </div>
+          <ul>
+            <li>Developed a learning management system in <strong>Laravel</strong> with OAuth2 and multi-factor authentication.</li>
+            <li>Integrated REST APIs for payments (PayPal, Razorpay), location and Zoom; designed a normalised SQL schema.</li>
+          </ul>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__head">
+            <h3>Website Developer Intern · <span>Ask in City, India</span></h3>
+            <p class="timeline__date">Jan 2020 – May 2020</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="subsection__title">Education</h3>
+      <ul class="cards cards--two">
+        <li class="card">
+          <h4>MS in Computer Science</h4>
+          <p>University of Maryland, Baltimore County · 2022 – 2024 · GPA 3.85/4</p>
+        </li>
+        <li class="card">
+          <h4>BTech in Computer Engineering</h4>
+          <p>Sardar Patel Institute of Technology, University of Mumbai · 2018 – 2022</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <h2 class="section__title" id="projects-title">Featured projects</h2>
+      <ul class="cards">
+        <li class="card card--project">
+          <p class="card__kicker">AI · Backend</p>
+          <h3>RTFM Agent</h3>
+          <p>An AI assistant for AWS's Python SDK: ask a question and get working code, the IAM policy it needs, and citations to the official docs.</p>
+          <ul class="card__points">
+            <li>End-to-end RAG pipeline over 2,800 Boto3 docs pages, a local Llama 3.1 model (Ollama) and a FastAPI endpoint.</li>
+            <li>Checks every IAM permission in a generated policy against the retrieved docs, flagging invented actions.</li>
+            <li>Evaluated on a labelled question set: on the development questions, the right page ranks first 78% of the time.</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>FastAPI</li><li>ChromaDB</li><li>Ollama</li><li>RAG</li></ul>
+          <a href="https://github.com/bhargavi1poyekar/RTFM-Agent" class="card__link" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li class="card card--project">
+          <p class="card__kicker">Backend · Systems</p>
+          <h3>MyRedis</h3>
+          <p>A Redis-compatible in-memory database server built from scratch with Python and AsyncIO.</p>
+          <ul class="card__points">
+            <li>TCP networking, RESP protocol, AOF persistence, Pub/Sub, TTL expiry and LRU eviction.</li>
+            <li>12,500+ requests/sec with P50 latency under 1 ms in benchmarks; containerised with Docker.</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>AsyncIO</li><li>Networking</li><li>Docker</li></ul>
+          <a href="https://github.com/bhargavi1poyekar/redis" class="card__link" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li class="card card--project">
+          <p class="card__kicker">Cloud · Security</p>
+          <h3>Hadoop to AWS</h3>
+          <p>A Python application that moves files from Hadoop HDFS to Amazon S3 securely and observably.</p>
+          <ul class="card__points">
+            <li>IAM policies, KMS encryption in transit and at rest, and credentials in Secrets Manager.</li>
+            <li>Data integrity checks, CloudWatch monitoring and SNS alerts on success or failure.</li>
+          </ul>
+          <ul class="tags"><li>AWS</li><li>S3</li><li>IAM</li><li>KMS</li><li>CloudWatch</li></ul>
+          <a href="https://github.com/bhargavi1poyekar/Hadoop_to_AWS" class="card__link" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li class="card card--project">
+          <p class="card__kicker">Distributed systems</p>
+          <h3>Token Manager</h3>
+          <p>A replicated client-server token service in Go using gRPC and Protocol Buffers.</p>
+          <ul class="card__points">
+            <li>Each token is a (1,N) register with atomic semantics, kept consistent by a read-impose-write-all quorum protocol.</li>
+            <li>Fail-silent nodes: a server can crash-stop on one token while still serving others.</li>
+          </ul>
+          <ul class="tags"><li>Go</li><li>gRPC</li><li>Protocol Buffers</li></ul>
+          <a href="https://github.com/bhargavi1poyekar/Token_Manager" class="card__link" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+      </ul>
+
+      <h3 class="subsection__title">More projects</h3>
+      <ul class="project-list">
+        <li><a href="https://github.com/bhargavi1poyekar/Fetch_receipt_challenge" target="_blank" rel="noopener">Receipt Processing API</a><span>Flask REST API with pytest, Postman tests and Docker</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/Distributed-Systems" target="_blank" rel="noopener">Car Booking System</a><span>Java RMI with Berkeley clock sync, ring election and replicated writes</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/Multithreaded-Average" target="_blank" rel="noopener">Multithreaded Average</a><span>Coordinator and worker goroutines communicating over channels in Go</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/CompPsych" target="_blank" rel="noopener">Eye Pupil Response</a><span>Scikit-learn model predicting task difficulty from pupil data (70% accuracy)</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/Emo-music" target="_blank" rel="noopener">EmoMusic</a><span>CNN emotion detection with music recommendations, built with Django</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/Computer-Security" target="_blank" rel="noopener">Computer Security labs</a><span>MITM with arpspoof, DoS attacks and ufw defences, Diffie-Hellman with RC4</span></li>
+        <li><a href="https://github.com/pritamrao746/domestic-violence" target="_blank" rel="noopener">Domestic Violence Support App</a><span>Flutter and Firebase app connecting survivors with counsellors and NGOs</span></li>
+        <li><a href="https://github.com/bhargavi1poyekar/Blog-master" target="_blank" rel="noopener">Blog Master</a><span>Laravel blog with authentication, categories and search</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <h2 class="section__title" id="skills-title">Skills</h2>
+      <dl class="skills">
+        <div><dt>Cloud</dt><dd>AWS (EC2, S3, Lambda, IAM, VPC, CloudWatch, SNS, STS, SSM, KMS), GCP (Cloud Run, Pub/Sub)</dd></div>
+        <div><dt>Infrastructure &amp; DevOps</dt><dd>Terraform, Docker, Ansible, GitHub Actions, CI/CD, Linux, vCenter</dd></div>
+        <div><dt>Backend</dt><dd>Python, FastAPI, Django, Flask, REST APIs, Node.js, PHP / Laravel</dd></div>
+        <div><dt>AI / ML</dt><dd>RAG, LLMs (Ollama, OpenAI), LangGraph, Sentence-Transformers, ChromaDB, Scikit-learn, TensorFlow</dd></div>
+        <div><dt>Data</dt><dd>SQL, PostgreSQL, MySQL, SQLite, DuckDB, Redis, MongoDB, Pandas, NumPy</dd></div>
+        <div><dt>Languages</dt><dd>Python, Go, JavaScript, Java, C, SQL</dd></div>
+        <div><dt>Testing &amp; tools</dt><dd>pytest, Postman, Git</dd></div>
+      </dl>
+
+      <h3 class="subsection__title">Certifications</h3>
+      <ul class="cards cards--three">
+        <li class="card card--cert">
+          <img src="assets/img/cert-aws-developer.png" alt="" width="64" height="64" loading="lazy">
+          <div>
+            <h4>AWS Certified Developer – Associate</h4>
+            <p>Valid Sep 2024 – Sep 2027</p>
+            <a href="https://www.credly.com/badges/725f00f5-e6e2-43ef-a7db-fe346c2c92e1" target="_blank" rel="noopener">View badge</a>
+          </div>
+        </li>
+        <li class="card card--cert">
+          <img src="assets/img/cert-terraform.png" alt="" width="64" height="64" loading="lazy">
+          <div>
+            <h4>HashiCorp Certified: Terraform Associate</h4>
+            <p>Valid Feb 2025 – Feb 2027</p>
+            <a href="https://www.credly.com/badges/524276fc-cbfc-4f31-ab5f-32619aee6eb2/public_url" target="_blank" rel="noopener">View badge</a>
+          </div>
+        </li>
+        <li class="card card--cert">
+          <img src="assets/img/cert-aws-cloud-practitioner.png" alt="" width="64" height="64" loading="lazy">
+          <div>
+            <h4>AWS Certified Cloud Practitioner</h4>
+            <p>Valid Apr 2024 – Apr 2027</p>
+            <a href="https://www.credly.com/badges/0983b360-2349-4ae2-9bb9-12c19f8f09d1/public_url" target="_blank" rel="noopener">View badge</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ WRITING ============ -->
+    <section class="section container" id="writing" aria-labelledby="writing-title">
+      <h2 class="section__title" id="writing-title">Writing</h2>
+      <div class="card card--feature">
+        <p class="card__kicker">Blog series on Medium</p>
+        <h3>Building RTFM</h3>
+        <p>
+          A build log of an AI documentation assistant, from scraping and chunking to embeddings, hybrid search and evaluation.
+          It covers what worked, what didn't, and why measuring beats guessing.
+        </p>
+        <a href="https://medium.com/@bpoyeka1" class="card__link" target="_blank" rel="noopener">Read on Medium</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section container contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="section__title" id="contact-title">Contact</h2>
+      <p>I'm open to conversations about engineering roles across cloud, backend and AI. The best way to reach me is email or LinkedIn.</p>
+      <div class="hero__actions">
+        <a href="mailto:bhargavi1poyekar@gmail.com" class="button">bhargavi1poyekar@gmail.com</a>
+        <a href="https://www.linkedin.com/in/bhargavi-poyekar-b342831a3/" class="button button--ghost" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Bhargavi Poyekar</p>
+      <ul class="footer__links">
+        <li><a href="https://github.com/bhargavi1poyekar" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://medium.com/@bpoyeka1" target="_blank" rel="noopener">Medium</a></li>
+        <li><a href="https://leetcode.com/u/bhargavi1poyekar/" target="_blank" rel="noopener">LeetCode</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&amp;user=0c8p-pwAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
 </html>
